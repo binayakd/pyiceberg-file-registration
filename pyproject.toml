@@ -1,0 +1,9 @@
+[project]
+name = "pyiceberg-file-registration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyiceberg[pyarrow,s3fs,sql-postgres]>=0.7.1",
+]
