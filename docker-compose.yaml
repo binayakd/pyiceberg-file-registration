@@ -51,10 +51,8 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - ./postgres-init:/docker-entrypoint-initdb.d:z
       - ./local-data/postgres-data:/var/lib/postgresql/data:z
     environment:
       POSTGRES_PASSWORD: postgres
       POSTGRES_USER: postgres
       PGDATA: /var/lib/postgresql/data/pgdata
-      POSTGRES_MULTIPLE_DATABASES: hive,iceberg

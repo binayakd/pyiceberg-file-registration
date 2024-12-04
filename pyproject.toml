@@ -5,5 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "pyiceberg[pyarrow,s3fs,sql-postgres]>=0.7.1",
+    "pyiceberg",
+    "s3fs",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "pyarrow",
+    "polars"
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
 ]
