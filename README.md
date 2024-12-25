@@ -1,6 +1,6 @@
-# Registering Parquet files into Iceberg Tables without Rewrites
+# Registering Parquet Files Into Iceberg Tables Without Rewrites Using Pyiceberg
 
-This repo is a companion to this [post](), which can we worked though using the Jupyter notebook `iceberg-file-registration.ipynb`.
+This repo is a companion to [this post](https://binayakd.tech/posts/2024-12-25-register-parquet-files-to-iceberg-without-rewrites/), which can we worked though using the Jupyter notebook `iceberg-file-registration.ipynb`.
 
 To work though the Notebook demo, you would need the following installed:
 
